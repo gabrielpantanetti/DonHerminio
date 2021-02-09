@@ -1,0 +1,37 @@
+.flex-fill {
+    flex: 1
+}
+
+@media (min-width: 768px) {
+    .top-nav-collapse .nav li img {
+        content: url('/assets/images/Home/LOGO\ 2.png');
+        width: 200px;
+    }
+}
+
+.nav li img {
+    content: url('/assets/images/Home/LOGO\ PNG.png');
+    width: 200px;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+ul li {
+    width: 100%;
+}
+
+@media screen and (max-width: 1170px) {
+    .nav li img {
+        display: none;
+    }
+    ul {
+        display: block;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
